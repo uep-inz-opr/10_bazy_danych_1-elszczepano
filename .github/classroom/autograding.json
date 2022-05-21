@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "bd_1_1",
+      "setup": "pip install -r requirements.txt",
+      "run": "python3 main.py",
+      "input": "polaczenia_duze.csv",
+      "output": "(449242|104956)",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
